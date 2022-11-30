@@ -1,0 +1,55 @@
+{
+  "name": "c72-rfid-scanner2",
+  "title": "React Native C72 Rfid Scanner",
+  "version": "0.0.1",
+  "description": "Chainway C72 RFID UHF Barcode Scanner",
+  "main": "index",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulobunga/c72-rfid-scanner2.git",
+    "baseUrl": "https://github.com/paulobunga/c72-rfid-scanner2"
+  },
+  "keywords": [
+    "react-native",
+    "rfid",
+    "barcode",
+    "uhf"
+  ],
+  "author": {
+    "username": "paulobunga",
+    "name": "Paul Obunga",
+    "email": "paulobunga.one@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "peerDependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.6"
+  },
+  "nativePackage": true,
+  "devDependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.6.2",
+    "@types/jest": "^24.0.24",
+    "@types/react-native": "^0.62.0",
+    "@types/react-test-renderer": "16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0",
+    "typescript": "^4.5.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "bugs": {
+    "url": "https://github.com/paulobunga/c72-rfid-scanner/issues"
+  },
+  "homepage": "https://github.com/paulobunga/c72-rfid-scanner#readme"
+}
