@@ -15,8 +15,8 @@ import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
-import com.rscja.deviceapi.RFIDWithUHFUART.BankEnum;
 import com.rscja.deviceapi.RFIDWithUHFUART;
+import com.rscja.deviceapi.entity.UHFTAGInfo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -167,7 +167,7 @@ public class C72RfidScannerModule extends ReactContextBaseJavaModule implements 
         // Access Password, Bank Enum (EPC(1), TID(2),...), Pointer, Count, Data
         //Boolean uhfWriteState = mReader.writeData_Ex("00000000", BankEnum.valueOf("UII"), 2, 6, epc);
 
-            Boolean uhfWriteState = mReader.writeData("00000000", IUHF.Bank_EPC, 2, 6, epc);
+            Boolean uhfWriteState = mReader.writeData("00000000", RFIDWithUHFUART.Bank_EPC, 2, 6, epc);
 
             if(uhfWriteState)
             promise.resolve(uhfWriteState);

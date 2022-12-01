@@ -73,8 +73,7 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-    implementation files('libs/xUtils-2.5.5.jar')
-    implementation files('libs/jxl.jar')
+    implementation fileTree(dir: 'libs', include: ['*.*'])
     implementation 'com.github.paulobunga:c72-device-api-220518:1.0.0'
 }
 
