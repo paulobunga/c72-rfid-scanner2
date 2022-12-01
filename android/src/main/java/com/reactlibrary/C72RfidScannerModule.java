@@ -14,11 +14,9 @@ import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
-import com.rscja.deviceapi.RFIDWithUHF;
-import com.rscja.deviceapi.RFIDWithUHF.BankEnum;
+
+import com.rscja.deviceapi.RFIDWithUHFUART.BankEnum;
 import com.rscja.deviceapi.RFIDWithUHFUART;
-import com.rscja.deviceapi.entity.UHFTAGInfo;
-import com.rscja.deviceapi.interfaces.IUHF;
 
 import java.util.ArrayList;
 import java.util.List;
